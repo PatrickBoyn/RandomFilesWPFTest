@@ -12,7 +12,7 @@
             <TextBox/>
             <Label Content="How many random files do you want?"/>
             <ComboBox FontSize="15px">
-                <ComboBoxItem>One random file</ComboBoxItem>
+                <ComboBoxItem IsSelected="True">One random file</ComboBoxItem>
                 <ComboBoxItem>Two random files</ComboBoxItem>
                 <ComboBoxItem>Three random files</ComboBoxItem>
                 <ComboBoxItem>List all files randomly</ComboBoxItem>
