@@ -11,7 +11,12 @@
             <Label Content="Enter a path to search" FontSize="15px"/>
             <TextBox/>
             <Label Content="How many random files do you want?"/>
-            <ComboBox FontSize="15px"/>
+            <ComboBox FontSize="15px">
+                <ComboBoxItem>One random file</ComboBoxItem>
+                <ComboBoxItem>Two random files</ComboBoxItem>
+                <ComboBoxItem>Three random files</ComboBoxItem>
+                <ComboBoxItem>List all files randomly</ComboBoxItem>
+            </ComboBox>
             <Label Content="Random File List:" FontSize="15px"/>
             <ListView FontSize="15px"/>
             <Button FontSize="15px">Get Random Files</Button>
