@@ -10,8 +10,10 @@
         <StackPanel>
             <Label Content="Enter a path to search" FontSize="15px"/>
             <TextBox/>
+            <Label Content="How many random files do you want?"/>
+            <ComboBox FontSize="15px"/>
             <Label Content="Random File List:" FontSize="15px"/>
-            <ListView/>
+            <ListView FontSize="15px"/>
             <Button FontSize="15px">Get Random Files</Button>
         </StackPanel>
     </Grid>
